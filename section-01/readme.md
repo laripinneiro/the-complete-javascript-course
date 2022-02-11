@@ -39,3 +39,11 @@ let a = 10;
 console.log(typeof a); // number
 console.log(typeof "javascript"); // string
 ```
+
+## Let, Const and Var
+
+- **Var** - a variable declared with VAR operator are accesible by the lower scopes. Also, those declared within block scopes are hoisted to the global scope. But remember, VAR operator actually it's a bit of an outdated Syntex from now.
+
+- **Let** - similar to VAR operator, a variable declared with LET is accesible by the lower scopes. But unlike VAR, those declared within block scopes are not hoisted. This is the correct and current way of declaring a variable.
+
+- **Const** - variables declared with CONST operator cannot have their values changed during scripting. So if we know that something should never change, we must declare it with CONST so we get an error if we do accidentally change it.
