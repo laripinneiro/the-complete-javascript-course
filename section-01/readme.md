@@ -48,7 +48,7 @@ console.log(typeof "javascript"); // string
 
 - **Const** - variables declared with CONST operator cannot have their values changed during scripting. So if we know that something should never change, we must declare it with CONST so we get an error if we do accidentally change it.
 
-## Basic operators
+## Basic Operators
 
 - **Arithmetic operators:**
 
@@ -69,3 +69,7 @@ The result of comparison is always true or false.
 | Equal | Not Equal | Strict Equal | Strict not Equal | Greater Than | Greater Than or Equal | Less Than | Less Than or Equal |
 | :---: | :-------: | :----------: | :--------------: | :----------: | :-------------------: | :-------: | :----------------: |
 |  ==   |    !=     |     ===      |       !==        |      >       |          >=           |     <     |         <=         |
+
+## Operator Precedence
+
+When we write an expression with different operators, JS will not necessarily execute it in the order. To know all about operator precedence, **[click this MDN content link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)**
