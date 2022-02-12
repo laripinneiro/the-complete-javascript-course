@@ -47,3 +47,25 @@ console.log(typeof "javascript"); // string
 - **Let** - similar to VAR operator, a variable declared with LET is accesible by the lower scopes. But unlike VAR, those declared within block scopes are not hoisted. This is the correct and current way of declaring a variable.
 
 - **Const** - variables declared with CONST operator cannot have their values changed during scripting. So if we know that something should never change, we must declare it with CONST so we get an error if we do accidentally change it.
+
+## Basic operators
+
+- **Arithmetic operators:**
+
+| Addition | Substraction | Multiplication | Division | Remainder |
+| :------: | :----------: | :------------: | :------: | :-------: |
+|    +     |      -       |       \*       |    /     |     %     |
+
+- **Assignment operators:**
+
+| Assignment | Addition | Substraction | Multiplication | Division | Remainder |
+| :--------: | :------: | :----------: | :------------: | :------: | :-------: |
+|     =      |    +=    |      -=      |      \*=       |    /=    |    %=     |
+
+- **Comparasing operators:**
+
+The result of comparison is always true or false.
+
+| Equal | Not Equal | Strict Equal | Strict not Equal | Greater Than | Greater Than or Equal | Less Than | Less Than or Equal |
+| :---: | :-------: | :----------: | :--------------: | :----------: | :-------------------: | :-------: | :----------------: |
+|  ==   |    !=     |     ===      |       !==        |      >       |          >=           |     <     |         <=         |
